@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fnd6"
+    tools:context=".MenuActivity">
+
+    <Button
+        android:id="@+id/menu_juegos"
+        android:layout_width="101dp"
+        android:layout_height="96dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/play"
+        android:gravity="center"
+        android:onClick="menujuegos" />
+
+    <Button
+        android:id="@+id/menu_pacientes"
+        android:layout_width="117dp"
+        android:layout_height="122dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="248dp"
+        android:background="@drawable/usuario"
+        android:gravity="center"
+        android:onClick="menupacientes" />
+
+    <TextView
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="APR"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="50dp" />
+
+
+</RelativeLayout>

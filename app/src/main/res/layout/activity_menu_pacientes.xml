@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fnd1"
+    tools:context=".MenuPacientesActivity">
+
+    <Button
+        android:id="@+id/ver_lista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:onClick="verLista"
+        android:text="@string/ver_lista" />
+
+    <Button
+        android:id="@+id/boton_nuevo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:onClick="ingresarNuevo"
+        android:text="Ingresar Nuevo" />
+
+    <Button
+        android:id="@+id/eliminar_paciente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:onClick="eliminarPaciente"
+        android:text="Eliminar Pacientes" />
+
+
+    <ImageView
+        android:id="@+id/dino"
+        android:layout_width="154dp"
+        android:layout_height="162dp"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:layout_columnSpan="4"
+        app:srcCompat="@drawable/dino" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:text="Bienvenidos"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

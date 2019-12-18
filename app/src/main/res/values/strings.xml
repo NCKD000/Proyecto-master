@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RCA-APR</string>
+    <string name="ver_lista">Ver Lista</string>
+    <string name="title_activity_memoria_juegos">MemoriaJuegosActivity</string>
+</resources>

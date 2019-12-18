@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/turq2"
+    tools:context=".EmocionalActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:gravity="center"
+        android:text="Reconocimiento Emocional"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/btnCambiar"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/refresh" />
+
+
+
+    <ImageView
+        android:id="@+id/emocional"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:layout_marginTop="120dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/r1" />
+
+
+    <Button
+        android:id="@+id/feliz"
+        android:layout_width="79dp"
+        android:layout_height="79dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/em1" />
+
+    <Button
+        android:id="@+id/triste"
+        android:layout_width="110dp"
+        android:layout_height="76dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/em2" />
+
+    <Button
+        android:id="@+id/serio"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/em3" />
+
+    <Button
+        android:id="@+id/enojado"
+        android:layout_width="146dp"
+        android:layout_height="82dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/em4" />
+
+    <Button
+        android:id="@+id/asustado"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/em5" />
+
+    <Button
+        android:id="@+id/llorar"
+        android:layout_width="84dp"
+        android:layout_height="83dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/em6" />
+
+
+
+
+</RelativeLayout>
